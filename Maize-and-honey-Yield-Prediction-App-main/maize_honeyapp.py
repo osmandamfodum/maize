@@ -18,7 +18,7 @@ st.markdown(
 
 # Display image at the top
 st.markdown('<div class="image-container">', unsafe_allow_html=True)
-st.image("neu.jpg", width='stretch')
+st.image("/neu.jpg", width='stretch')
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Switch button using radio for mode selection
@@ -197,4 +197,5 @@ with st.sidebar:
     st.write(f"**Data Range**: 2000–2023 (Maize) or 1995–2021 (Honey).")
 
     st.write("**Charts**: Historical trends, comparisons, distribution, and feature importance.")
+
 
